@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+
+    </body>
+    <script src="../dist/lonjin-helper.js"></script>
+    
+    <script>
+        let {checkFormToast, rules} = lonjinHelper
+        console.log(lonjinHelper)
+        let idCard = '1402211997'
+       
+        let toast = checkFormToast(rules.isIdCardNo(idCard,'请输入合法身份证'))
+        if(toast){
+            alert(toast)
+        }else{
+            // success
+        }
+    </script>
+</html>
