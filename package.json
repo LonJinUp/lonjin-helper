@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/lonjin-helper.js",
-  "type": "module",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
