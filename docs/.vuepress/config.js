@@ -1,6 +1,6 @@
 module.exports = {
     title: 'lonjin-helper',
-    base: "/",
+    base: "/lonjin-helper/",
     description: 'lonjinhelper',
     themeConfig: {
         nav: [
