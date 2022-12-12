@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "test",
   "main": "./dist/lonjin-helper.js",
+ 
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "build": "rollup -c rollup.config.js  --watch"
+    "build": "rollup -c rollup.config.js  --watch",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [
     "utils",
