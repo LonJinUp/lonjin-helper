@@ -1,7 +1,7 @@
 {
   "name": "lonjin-helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "./dist/lonjin-helper.js",
  
   "scripts": {
