@@ -11,7 +11,7 @@
 基本用法
 
 ```js
-import { filterEmptyParameters } from 'lonjinHelper'
+import { filterEmptyParameters } from 'lonjin-helper'
 let data = {
     name: 'tom',
     age: '',
@@ -24,7 +24,7 @@ console.log(filterEmptyParameters(data)) //{"name": "tom"}
 
 多层级对象
 ```js
-import { filterEmptyParameters } from 'lonjinHelper'
+import { filterEmptyParameters } from 'lonjin-helper'
 let data = {
     name: 'tom',
     age: '',

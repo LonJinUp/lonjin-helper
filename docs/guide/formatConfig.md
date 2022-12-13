@@ -15,7 +15,7 @@
 
 基本用法
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', value: '', key: 'userName'},
@@ -57,7 +57,7 @@ console.log(arr)
 
 替补数据
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', value: '', key: 'userName'},
@@ -103,7 +103,7 @@ console.log(arr)
 
 根据指定字段去匹配（默认为`key`）
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', value: '', model: 'userName'},
@@ -145,7 +145,7 @@ console.log(arr)
 
 赋值到`array`指定字段
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', options: '', model: 'userName'},
@@ -187,7 +187,7 @@ console.log(arr)
 
 如果没匹配到，默认赋值为`暂无数据`
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', options: '', model: 'userName'},
@@ -239,7 +239,7 @@ console.log(arr)
 如果内部定义了`format`方法，获取到值后会执行`format`方法
 
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let format = val=>`tell:${val}`
 
@@ -275,7 +275,7 @@ console.log(arr)
 
 如果`key`为数组，`value`也为数组
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', value: '', key: 'userName'},
@@ -326,7 +326,7 @@ console.log(arr)
 
 如果`key`为数组，`value`为字符串，可以将匹配到的值进行拼接
 ```js
-import { formatConfig } from 'lonjinHelper'
+import { formatConfig } from 'lonjin-helper'
 
 let arr = [
     {label: '用户名', value: '', key: 'userName'},

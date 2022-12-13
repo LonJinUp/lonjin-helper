@@ -1,13 +1,12 @@
 {
   "name": "lonjin-helper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./dist/lonjin-helper.js",
- 
+  "version": "1.0.01",
+  "description": "js helper function",
+  "main": "lib/lonjin-helper.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "build": "rollup -c rollup.config.js  --watch",
+    "build": "rollup -c rollup.config.js"
   },
   "keywords": [
     "utils",

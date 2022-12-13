@@ -12,7 +12,7 @@
 
 基本用法
 ```js
-import { getLabel } from 'lonjinHelper'
+import { getLabel } from 'lonjin-helper'
 
 let list = [
     {label: '类目1', value: '1'},

@@ -11,7 +11,7 @@
 基本用法
 
 ```js
-import { sleep } from 'lonjinHelper'
+import { sleep } from 'lonjin-helper'
 
 async function fn() {
     await sleep(3000)

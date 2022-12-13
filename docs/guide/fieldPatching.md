@@ -11,7 +11,7 @@
 
 基本用法
 ```js
-import { fieldPatching } from 'lonjinHelper'
+import { fieldPatching } from 'lonjin-helper'
 let data = {
     name: '张三',
     age: '李四',

@@ -12,7 +12,7 @@
 基本用法
 
 ```js
-import { getNameByEnum } from 'lonjinHelper'
+import { getNameByEnum } from 'lonjin-helper'
 let enumArray = [
     {label: '测试1', value: 1},
     {label: '测试2', value: 2},

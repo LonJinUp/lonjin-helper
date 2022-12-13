@@ -4,7 +4,7 @@ import babel from "rollup-plugin-babel"
 export default {
     input: "./src/index.js",
     output: {
-      file: "./dist/lonjin-helper.js",
+      file: "./lib/lonjin-helper.js",
       format: "esm",
       name: "lonjin-helper"
     },

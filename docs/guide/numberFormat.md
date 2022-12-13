@@ -12,7 +12,7 @@
 
 ### Demo:
 ```js
-import { dividedIntoYuan } from 'lonjinHelper'
+import { dividedIntoYuan } from 'lonjin-helper'
 
 let price = 100
 console.log(dividedIntoYuan(price)) //1.00
@@ -32,7 +32,7 @@ console.log(dividedIntoYuan(price)) //1.00
 基础使用：
 
 ```js
-import { regYuanToFen } from 'lonjinHelper'
+import { regYuanToFen } from 'lonjin-helper'
 
 let price = 1
 console.log(regYuanToFen(price)) //100
@@ -41,7 +41,7 @@ console.log(regYuanToFen(price)) //100
 转化为10倍
 
 ```js
-import { regYuanToFen } from 'lonjinHelper'
+import { regYuanToFen } from 'lonjin-helper'
 
 let price = 1
 console.log(regYuanToFen(price, 10)) //10
@@ -56,7 +56,7 @@ console.log(regYuanToFen(price, 10)) //10
 | amount | 金额 | Number/String | true   | --     |
 
 ```js
-import { twoDecimalPlaces } from 'lonjinHelper'
+import { twoDecimalPlaces } from 'lonjin-helper'
 
 let price = '102'
 console.log(twoDecimalPlaces(price)) //102.00
@@ -73,7 +73,7 @@ console.log(twoDecimalPlaces(price)) //102.00
 ### demo
 
 ```js
-import { priceUppercase } from 'lonjinHelper'
+import { priceUppercase } from 'lonjin-helper'
 
 let price = '102.22'
 console.log(priceUppercase(price)) //壹佰零贰元贰角贰分
