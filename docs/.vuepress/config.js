@@ -32,7 +32,9 @@ module.exports = {
                 {
                     title: '数据验证',
                     collapsable: false,
-                    ['../guide/checkFormRules.md', 'checkFormRules'],
+                    children: [
+                        ['../guide/checkFormRules.md', 'checkFormRules'],
+                    ]
                 },
                 {
                     title: '金额处理',
