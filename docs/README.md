@@ -4,12 +4,11 @@
 :rocket: 开箱即用的项目辅助函数，代码体积仅有`8k`，所有函数均已在大量项目中使用，欢迎使用。
 ::: 
 
-## 查看文档
+## 报告问题&&联系我
 
-[查看文档](./guide/README.md)
+[报告问题](https://github.com/LonJinUp/lonjin-helper/issues) |
+[联系我](https://lonjinup.github.io/post/about/)
 
-## 源码地址
+## 参与共建
 
-```JS
-    https://github.com/LonJinUp/lonjin-helper/tree/master
-```
+我们欢迎所有的贡献，你可以将任何想法作为 pull requests 或 issues 提交,或者[联系我](https://lonjinup.github.io/post/about/)。

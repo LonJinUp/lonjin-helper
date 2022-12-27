@@ -6,6 +6,8 @@ module.exports = {
         nav: [
             // 一级导航
             { text: '文档', link: '/guide/' },
+            {text: '联系我', link: 'https://lonjinup.github.io/post/about/', target: '_blank'},
+            { text: 'github', link: 'https://github.com/LonJinUp/lonjin-helper', target: '_blank' },
             // 下拉列表导航
             //   {
             //     text: '了解更多',
@@ -41,6 +43,13 @@ module.exports = {
                     collapsable: false,
                     children: [
                         ['../guide/numberFormat.md', 'numberFormat'],
+                    ]
+                },
+                {
+                    title: '浏览器相关',
+                    collapsable: false,
+                    children: [
+                        ['../guide/storage.md', 'storage'],
                     ]
                 },
                 {

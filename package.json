@@ -1,7 +1,7 @@
 {
   "name": "lonjin-helper",
-  "version": "1.0.01",
-  "description": "js helper function",
+  "version": "1.0.02",
+  "description": "JavaScript helper function",
   "main": "lib/lonjin-helper.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -10,12 +10,10 @@
   },
   "keywords": [
     "utils",
-    "array",
-    "object",
+    "element-ui",
+    "JavaScript",
     "function",
-    "string",
-    "event-bus",
-    "pub-sub"
+    "uni-app"
   ],
   "author": "lonjin",
   "license": "MIT",

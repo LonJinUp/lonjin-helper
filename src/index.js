@@ -7,3 +7,4 @@ export { dividedIntoYuan, regYuanToFen, twoDecimalPlaces, priceUppercase, format
 export { sleep } from './sleep/index.js'
 export { checkFormToast } from './checkFormRules/index.js'
 export {rules} from './checkFormRules/rules.js'
+export { setStorage, getStorage, clearAll} from './storage/index.js'
