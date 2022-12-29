@@ -1,12 +1,12 @@
 {
   "name": "lonjin-helper",
-  "version": "1.0.02",
+  "version": "1.0.03",
   "description": "JavaScript helper function",
   "main": "lib/lonjin-helper.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "build": "rollup -c rollup.config.js"
+    "lib": "rollup -c rollup.config.js"
   },
   "keywords": [
     "utils",
@@ -15,7 +15,12 @@
     "function",
     "uni-app"
   ],
+  "bugs": "https://github.com/LonJinUp/lonjin-helper/issues",
   "author": "lonjin",
+  "files": [
+    "lib/"
+  ],
+  "unpkg": "lib/lonjin-helper.js",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.9.1",

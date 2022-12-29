@@ -50,6 +50,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         ['../guide/storage.md', 'storage'],
+                        ['../guide/scrollTop.md', 'scrollTop'],
                     ]
                 },
                 {
