@@ -29,6 +29,7 @@ module.exports = {
                         ['../guide/filterEmptyParameters.md', 'filterEmptyParameters'],
                         ['../guide/getLabel.md', 'getLabel'],
                         ['../guide/getNameByEnum.md', 'getNameByEnum'],
+                        ['../guide/serializeObject.md', 'serializeObject'],
                     ]
                 },
                 {
