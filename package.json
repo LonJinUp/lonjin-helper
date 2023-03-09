@@ -35,7 +35,6 @@
     "babel-preset-stage-2": "^6.5.0",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-terser": "^4.0.4",
-    "vuepress": "^1.9.7",
-    "webpack": "^4.46.0"
+    "vuepress": "^1.9.7"
   }
 }
