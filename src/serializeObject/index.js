@@ -3,7 +3,7 @@
  * @param {Object} obj 
  * @returns 
  */
-function serializeObject(obj) {
+export function serializeObject(obj) {
     const keys = Object.keys(obj).sort()
     const serializedObj = {}
     for (let key of keys) {
