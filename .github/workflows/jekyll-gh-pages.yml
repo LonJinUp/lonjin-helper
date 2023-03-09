@@ -1,23 +1,23 @@
-# action 的名称
+# 工作流名称，不设置的话默认取配置文件名
 name: Deploy GitHub Pages
-
-# 触发条件：在 push 到 master 分支后
+# 指定触发 workflow 的条件
+# 指定触发事件时，可以限定分支或标签
 on:
   push:
     branches:
       - master
-
-# 任务
+# 工作流执行的一个或多个任务
 jobs:
+  # 任务名称
   build-and-deploy:
-    # 服务器环境：最新版 Ubuntu
+    # 任务运行的容器类型（虚拟机环境）
     runs-on: ubuntu-latest
+    # 任务执行的步骤
     steps:
-      # 拉取代码
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+      # 步骤名称
+      - name: Checkout ️    # 拉取代码
+        # 使用的操作 actions，可以使用公共仓库，本地仓库，别人的仓库的action
+        uses: actions/checkout@v2 # 将代码拷贝到虚机中
       # 设置 nodejs 版本
       - name: SetNodeVersion
         uses: actions/setup-node@v2
@@ -26,18 +26,15 @@ jobs:
       # nodejs 版本检查
       - name: NodeCheck
         run: node -v
-      # 生成静态文件
-      - name: Build
-        run: npm install && npm run docs:build
-
-      # 部署到 GitHub Pages
-      - name: Deploy
-        # 使用别人写好的一个 action
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Build  # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install && npm run docs:build
+        # 构建发布 Github pages
+      - name: Deploy 
+        # 使用github-pages-deploy-action: https://github.com/JamesIves/github-pages-deploy-action/tree/master
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          # 这里的 ACCESS_TOKEN 名字需要和下文中的相对应
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          # 打包后的文件部署到哪个分支上
-          BRANCH: gh-pages
-          # 打包后的文件在哪里
-          FOLDER: docs/.vuepress/dist
+          # 存储库中要部署的文件夹。
+          # 该步骤会将项目中 FOLDER 指定文件夹下的文件推送到 BRANCH 分支，作为Github Pages 部署的内容。
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs/.vuepress/dist # The folder the action should deploy.
