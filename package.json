@@ -20,7 +20,6 @@
   "files": [
     "lib/"
   ],
-  "type": "module",
   "unpkg": "lib/lonjin-helper.js",
   "license": "MIT",
   "devDependencies": {
