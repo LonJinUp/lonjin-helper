@@ -3,7 +3,7 @@ export function setStorage(key, value){
 }
 
 export function getStorage(key){
-    return JSON.parse(window.localStorage.getItem('key') || null)
+    return JSON.parse(window.localStorage.getItem(key) || null)
 }
 
 export function clearAll(){
