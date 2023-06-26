@@ -1,6 +1,6 @@
 {
   "name": "lonjin-helper",
-  "version": "1.0.06",
+  "version": "1.0.08",
   "description": "JavaScript helper function",
   "main": "lib/lonjin-helper.js",
   "scripts": {
