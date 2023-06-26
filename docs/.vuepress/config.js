@@ -6,7 +6,7 @@ module.exports = {
         nav: [
             // 一级导航
             { text: '文档', link: '/guide/' },
-            {text: '联系我', link: 'https://lonjinup.github.io/post/about/', target: '_blank'},
+            { text: '联系我', link: 'https://lonjinup.github.io/post/about/', target: '_blank' },
             { text: 'github', link: 'https://github.com/LonJinUp/lonjin-helper', target: '_blank' },
             // 下拉列表导航
             //   {
@@ -29,7 +29,8 @@ module.exports = {
                         ['../guide/filterEmptyParameters.md', 'filterEmptyParameters'],
                         ['../guide/getLabel.md', 'getLabel'],
                         ['../guide/getNameByEnum.md', 'getNameByEnum'],
-                        ['../guide/serializeObject.md', 'serializeObject']
+                        ['../guide/serializeObject.md', 'serializeObject'],
+                        ['../guide/sortObjectFields.md', 'sortObjectFields'],
                     ]
                 },
                 {
@@ -61,9 +62,9 @@ module.exports = {
                         ['../guide/sleep.md', 'sleep'],
                     ]
                 }
-              ]
+            ]
         }
-        
+
     }
-    
+
 }
