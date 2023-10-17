@@ -1,6 +1,6 @@
 {
   "name": "lonjin-helper",
-  "version": "1.0.08",
+  "version": "1.0.09",
   "description": "JavaScript helper function",
   "main": "lib/lonjin-helper.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "files": [
     "lib/"
   ],
+  "type": "module",
   "unpkg": "lib/lonjin-helper.js",
   "license": "MIT",
   "devDependencies": {

@@ -1,6 +1,6 @@
 # storage
 
-> 设置、读取、清空`LocalStorage`
+> 设置、读取、清空`localStorage`
 
 ## setStorage
 
@@ -16,7 +16,7 @@
 ```js
 import { setStorage } from 'lonjin-helper'
 
-setStorage('token', '#sj234@21230988')
+setStorage('token', 'sjd92hd89#88hdye')
 
 setStorage('userinfo', {name: 'tom', age: 18})
 ```
@@ -45,14 +45,18 @@ let info = getStorage('userinfo')
 console.log(info) // {name: "tom", age: "18"}
 ```
 
-## clearAll
+## clearStorage
 
-删除所有`LocalStorage`中的数据
+删除/清空`localStorage`中的值 如果有key，则删除指定对象，如果没有则清空所有`localStorage`
 
 ### Demo
 
 ```js
-import { clearAll } from 'lonjin-helper'
+import { clearStorage } from 'lonjin-helper'
 
-clearAll()
+//删除指定值
+clearStorage('user')
+
+// 清空
+clearStorage()
 ```
