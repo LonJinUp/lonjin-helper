@@ -7,7 +7,7 @@
 基本用法
 
 ```js
-import { sleep } from 'lonjin-helper'
+import { sortObjectFields } from 'lonjin-helper'
 
 const obj = {
     name: 'John',
